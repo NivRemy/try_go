@@ -217,3 +217,13 @@ function whichLicense ($age, $uselessVar='Hey, je suis la variable inutile!') { 
 whichLicense(30);
 whichLicense(17);
 whichLicense(5,'Pas si inutile que ça en fait!');
+
+
+/*TP, Afficher sur une page les titres des posts avec des balises <h2> et le contenu avec des <p> */
+$posts = [
+    ['Mon premier post','J\'écris un premier message à la main, les autres seront générés automatiquement'],
+    ['Mon deuxième post','Batnae municipium in Anthemusia conditum Macedonum manu priscorum ab Euphrate flumine brevi spatio disparatur, refertum mercatoribus opulentis, ubi annua sollemnitate prope Septembris initium mensis ad nundinas magna promiscuae fortunae convenit multitudo ad commercanda quae Indi mittunt et Seres aliaque plurima vehi terra marique consueta.'],
+    ['Mon troisième post','Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.'],
+    ['Mon quatrième post','Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur et tabernas et vilitates harum similis alias, summatim causas perstringam nusquam a veritate sponte propria digressurus.'],
+    ['Mon cinquième post','Accedebant enim eius asperitati, ubi inminuta vel laesa amplitudo imperii dicebatur, et iracundae suspicionum quantitati proximorum cruentae blanditiae exaggerantium incidentia et dolere inpendio simulantium, si principis periclitetur vita, a cuius salute velut filo pendere statum orbis terrarum fictis vocibus exclamabant.']
+];
